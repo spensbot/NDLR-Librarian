@@ -1,0 +1,31 @@
+#troubleshoot-modal {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    flex-direction: column;
+    background-color: rgba(0,0,0,.8 );
+    display: none;
+    font-size: .8em;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+#troubleshoot-label {
+    font-size: 2em;
+    color: rgba(255,255,255,0.8)
+}
+#troubleshoot-table {
+    margin: 2em auto;
+}
+#troubleshoot-modal-dismiss-button {
+    width: 25%;
+    margin: 0 auto;
+}
+table {
+    background-color: whitesmoke;
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px solid;
+    padding: 4px;
+}

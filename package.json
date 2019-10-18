@@ -1,0 +1,32 @@
+{
+  "name": "ndlr-librarian",
+  "version": "1.0.0",
+  "description": "A Cross-Platform Desktop App for downloading and uploading NDLR settings (sessions)",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "rebuild": "electron-rebuild",
+    "test": "mocha"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "NDLR",
+    "Noodler",
+    "Synthesizers",
+    "Conductive Labs"
+  ],
+  "author": "Spenser Saling",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^6.0.12",
+    "electron-builder": "^21.2.0",
+    "electron-rebuild": "^1.8.6"
+  },
+  "dependencies": {
+    "electron-store": "^5.0.0",
+    "electron-window-state": "^5.0.3",
+    "mocha": "^6.2.1",
+    "serialport": "^7.1.5",
+    "tableify": "^1.1.0"
+  }
+}

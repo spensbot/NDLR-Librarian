@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Hello World!</title>
+  <link rel="stylesheet" href="./css/connection-status.css">
+  <link rel="stylesheet" href="./css/content.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/troubleshoot-modal.css">
+</head>
+
+<body>
+  <div id=connection-status>
+    <span id=connection-spinner></span>
+    <span id=connection-label>Connection Status</span>
+    <span class="ss-button" id=connection-troubleshoot-button>Troubleshoot</span>
+  </div>
+  <div id=content>
+    <div class="big-ass-button" id=save-my-shit-button>
+      <span>Save Session From NDLR</span> 
+    </div>
+    <div class="big-ass-button" id=load-my-shit-button>
+      <span>Load Session To NDLR</span>
+    </div>
+  </div>
+
+  <div id=troubleshoot-modal>
+      <div id=troubleshoot-label>Connected Serial Devices</div>
+      <div id=troubleshoot-table></div>
+      <button id=troubleshoot-modal-dismiss-button>ok</button>
+  </div>
+
+  <!-- You can also require other files to run in this process -->
+  <script src="./renderer.js"></script>
+</body>
+
+</html>

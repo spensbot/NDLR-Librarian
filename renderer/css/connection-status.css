@@ -1,0 +1,29 @@
+#connection-status {
+    background-color: rgb(71, 143, 71);
+    background-color: rgb(172, 67, 67);
+    padding: .2em .5em;
+    display: flex;
+    color: rgba(255,255,255,0.5);
+    font-size: .85em;
+    box-shadow: 0px 0px 14px 5px rgba(0,0,0,0.2);
+}
+#connection-spinner {
+    border: .15em solid rgba(255,255,255,0.5); /* Light grey */
+    border-top: .15em solid rgba(255,255,255,0.0); /* Blue */
+    border-radius: 50%;
+    width: .6em;
+    height: .6em;
+    animation: spin 1s linear infinite;
+    margin-right: .4em;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+#connection-label {
+    color: rgba(255,255,255,0.5);
+    margin-right: auto;
+}
+#connection-troubleshoot-button {
+    cursor: pointer;
+}
